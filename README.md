@@ -23,8 +23,7 @@
    
     d) for each successor
         i) if successor is the goal, stop search
-        
-        ii) else, compute both g and h for successor
+         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
           successor.h = distance from goal to 
